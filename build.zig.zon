@@ -1,0 +1,17 @@
+.{
+    .name = .comperr_zig_aio,
+    .version = "0.0.0",
+    .fingerprint = 0x4d9821feae3508c9,
+    .minimum_zig_version = "0.14.0",
+    .dependencies = .{
+        .aio = .{
+            .url = "git+https://github.com/Cloudef/zig-aio.git#36b5da39756d4969da6680f091f0b522eb63008e",
+            .hash = "aio-0.0.0-776t3qVVBQCS5e6tiQ2qs6ds8N3NaEvbxqLg6womBPI_",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
